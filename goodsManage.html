@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品管理</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="小鸟观映">
+    <meta name="description" content="小鸟观映">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/goodsManage.css">
+</head>
+<body>
+<div class="w">
+    <!--头部-->
+    <header id="header">
+        <a href="#" class="logo"></a>
+        <span class="title fl">商户后台管理中心</span>
+        <div class="userControl fr">
+            <span class="userName">: admin</span>
+            <a href="#" class="exit">退出系统</a>
+        </div>
+    </header>
+    <!--侧边栏-->
+    <aside id="aside">
+        <ul class="menu">
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico1"></em>POS收银<i ></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">POS收银</a></li>
+                    <li><a href="javascript:;">预约详情</a></li>
+                    <li><a href="javascript:;">订单管理</a></li>
+                    <li><a href="javascript:;">卖品</a></li>
+                    <li><a href="javascript:;">信息推送</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico2"></em>影厅管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">影厅设置</a></li>
+                    <li><a href="javascript:;">人员管理</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico3"></em>会员管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员信息</a></li>
+                    <li><a href="javascript:;">交易信息</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico4"></em>财务管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">财务统计</a></li>
+                    <li><a href="javascript:;">订单数据</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit current"><em class="ico ico5"></em>商品管理<i class="down"></i></a>
+                <ul class="level2"  style="display:block;">
+                    <li><a href="javascript:;" class="cur">商品管理</a></li>
+                    <li><a href="javascript:;" >卖品订单</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico6"></em>促销管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员促销</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico7"></em>系统设置<i></i></a>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico8"></em>APP系统<i></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!--主体-->
+    <section id="main">
+        <div class="topBar">
+            <div class="location fl">
+                <a>首页</a> &gt; <a>商品管理</a> &gt; <a class="cur">商品管理</a>
+            </div>
+            <div class="date fr">
+                2017年05月20日&emsp;&emsp;16:18:10&emsp;&emsp;星期五
+            </div>
+        </div>
+        <div class="orderManage clearfix">
+            <div class="ma-top clearfix">
+                <span class="fl">商品名称</span>
+                <input class="dv1 fl" value="青岛啤酒">
+                <span class="fl">所属品类</span>
+                <!--<div class="sel-boxone se1 fl" id="Tmcselect01">
+                    <input for="label" title="" type="text" readonly value="青岛啤酒">
+                    <ul class="sel-list" style="display:none;">
+                        <li data="1">青岛啤酒</li>
+                        <li data="2">茉莉清茶</li>
+                        <li data="3">薯片</li>
+                        <li data="4">绿茶</li>
+                    </ul>
+                </div>-->
+                <select class="se1 fl">
+                    <option value="">青岛啤酒</option>
+                    <option value="">茉莉清茶</option>
+                    <option value="">薯片</option>
+                    <option value="">绿茶</option>
+                </select>
+                <span class="fl">状态</span>
+                <!--<div class="sel-boxone se2 fl" id="Tmcselect02">
+                    <input for="label" title="" type="text" readonly value="销售中">
+                    <ul class="sel-list" style="display:none;">
+                        <li data="1">销售中</li>
+                        <li data="2">已下架</li>
+                        <li data="3">缺货</li>
+                    </ul>
+                </div>-->
+                <select class="se2 fl">
+                    <option value="">销售中</option>
+                    <option value="">已下架</option>
+                    <option value="">缺货</option>
+                </select>
+                <a href="#" class="a1 fl">搜索</a>
+                <a href="#" class="a2 fl">新增商品</a>
+                <a href="#" class="a3 fl">新增品类</a>
+                <a href="#" class="a4 fl">删除品类</a>
+            </div>
+            <div class="bottom clearfix">
+                <table cellpadding="0" cellspacing="0" >
+                    <tr class="tr6">
+                        <th width="104" class="th1"><input type="checkbox">全选</th>
+                        <th width="183">商品名称</th>
+                        <th width="184">所属品类</th>
+                        <th width="183">单价</th>
+                        <th width="183">会员价</th>
+                        <th width="184">库存量</th>
+                        <th width="189">是否热卖</th>
+                        <th width="211">状态</th>
+                        <th width="206">操作</th>
+                    </tr>
+                    <tr class="tr1 tr2">
+                        <td class="t1"><input type="checkbox"></td>
+                        <td class="t2">青岛啤酒</td>
+                        <td class="t3">酒水</td>
+                        <td class="t4">20</td>
+                        <td class="t5">18</td>
+                        <td class="t6">200</td>
+                        <td class="t7"><img src="images/gou.png" alt=""></td>
+                        <td class="t8"><i></i>销售中</td>
+                        <td class="t9"><a href="#" class="a1">编辑</a><a href="#" class="a2">下架</a></td>
+                    </tr>
+                    <tr class="tr1 tr3">
+                        <td class="t1"><input type="checkbox"></td>
+                        <td class="t2">茉莉清茶</td>
+                        <td class="t3">饮料</td>
+                        <td class="t4">20</td>
+                        <td class="t5">18</td>
+                        <td class="t6">200</td>
+                        <td class="t7"></td>
+                        <td class="t8"><i></i>销售中</td>
+                        <td class="t9"><a href="#" class="a1">编辑</a><a href="#" class="a2">下架</a></td>
+                    </tr>
+                    <tr class="tr1 tr4">
+                        <td class="t1"><input type="checkbox"></td>
+                        <td class="t2">薯片</td>
+                        <td class="t3">零食</td>
+                        <td class="t4">20</td>
+                        <td class="t5">18</td>
+                        <td class="t6">200</td>
+                        <td class="t7"><img src="images/gou.png" alt=""></td>
+                        <td class="t8"><i></i>已下架</td>
+                        <td class="t9"><a href="#" class="a1">编辑</a><a href="#" class="a2">下架</a></td>
+                    </tr>
+                    <tr class="tr1 tr5">
+                        <td class="t1"><input type="checkbox"></td>
+                        <td class="t2">绿茶</td>
+                        <td class="t3">饮料</td>
+                        <td class="t4">20</td>
+                        <td class="t5">18</td>
+                        <td class="t6">200</td>
+                        <td class="t7"><img src="images/gou.png" alt=""></td>
+                        <td class="t8"><i></i>缺货</td>
+                        <td class="t9"><a href="#" class="a1">编辑</a><a href="#" class="a2">下架</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="handle" class="popup" style="display:none;">
+                <!--弹出-->
+                <!--下架-->
+                <div class="off clearfix interface" id="soldOut" style="display:none;">
+                    <p class="title top"><a href="#" class="closeBtn"></a></p>
+                    <p class="p1">确定要下架此商品吗？</p>
+                    <p class="p2"><a href="#" class="a1">确定</a><a href="#" class="a2">取消</a></p>
+                </div>
+                <!--编辑-->
+                <div class="edit interface" id="edit" style="display:none;">
+                    <h3 class="title top">编辑商品<a href="#" class="closeBtn"></a></h3>
+                    <form class="ed-content" name="editForm">
+                        <div class="dv1">
+                            <span><i>*</i>商品名称：</span>
+                            <input type="text" value="可口可乐">
+                        </div>
+                        <div class="dv2">
+                            <span><i>*</i>所属品类：</span>
+                            <!--<div class="sel-boxone fl" id="Tmcselect04">
+                                <input for="label" type="text" readonly value="饮料">
+                                <ul class="sel-list" style="display:none;">
+                                    <li data="all">饮料</li>
+                                    <li data="all">酒水</li>
+                                    <li data="all">零食</li>
+                                </ul>
+                            </div>-->
+                            <select>
+                                <option value="">饮料</option>
+                                <option value="">酒水</option>
+                                <option value="">零食</option>
+                            </select>
+                        </div>
+                        <div class="dv3">
+                            <span><i>*</i>商品价格：</span>
+                            <input type="text" value="15">
+                        </div>
+                        <div class="dv4">
+                            <span><i>*</i>会员价：</span>
+                            <input type="text" value="12">
+                        </div>
+                        <div class="dv5">
+                            <span><i>*</i>库存量：</span>
+                            <input type="text" value="80">
+                        </div>
+                        <div class="dv6">
+                            <span><i>*</i>上传图片：</span>
+                            <div class="img" id="anewUpload" onclick="document.editForm.anewUploadInput.click()"><a href="#">重新上传</a></div>
+                            <input type="file" id="anewUploadInput" style="display:none;">
+                        </div>
+                        <div class="dv7">
+                            <span><i>*</i>是否热卖：</span>
+                            <input type="radio" name="sex" value="male"><i class="i">是</i><input type="radio" name="sex" value="male"><i class="i" >否</i>
+                        </div>
+                        <div class="dv8">
+                            <span>添加描述：</span>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </form>
+                    <div class="btn">
+                        <a href="#" class="a1">确定</a>
+                        <a href="#" class="a2">取消</a>
+                    </div>
+                </div>
+                <!--新增商品-->
+                <div class="edit commodity interface" id="addGoods" style="display:none;">
+                    <h3 class="title top">新增商品<a href="#" class="closeBtn"></a></h3>
+                    <form class="ed-content" name="addForm">
+                        <div class="dv1">
+                            <span><i>*</i>商品名称：</span>
+                            <input type="text" value="可口可乐">
+                        </div>
+                        <div class="dv2">
+                            <span><i>*</i>所属品类：</span>
+                            <!--<div class="sel-boxone fl" id="Tmcselect05">
+                                <input for="label" type="text" readonly value="饮料">
+                                <ul class="sel-list" style="display:none;">
+                                    <li data="all">饮料</li>
+                                    <li data="all">酒水</li>
+                                    <li data="all">零食</li>
+                                </ul>
+                            </div>-->
+                            <select>
+                                <option value="">饮料</option>
+                                <option value="">酒水</option>
+                                <option value="">零食</option>
+                            </select>
+                        </div>
+                        <div class="dv3">
+                            <span><i>*</i>商品价格：</span>
+                            <input type="text" value="15">
+                        </div>
+                        <div class="dv4">
+                            <span><i>*</i>会员价：</span>
+                            <input type="text" value="12">
+                        </div>
+                        <div class="dv5">
+                            <span><i>*</i>库存量：</span>
+                            <input type="text" value="80">
+                        </div>
+                        <div class="dv6">
+                            <span><i>*</i>上传图片：</span>
+                            <div class="img" id="upload" onclick="document.addForm.uploadInput.click()"><a href="#"></a></div>
+                            <input type="file" id="uploadInput" style="display:none;">
+                            <div class="text">
+                                <p>支持 jpg.png格式</p>
+                                <p>文件小于2MB</p>
+                                <p>分辨率138*138</p>
+                            </div>
+                        </div>
+                        <div class="dv7">
+                            <span><i>*</i>是否热卖：</span>
+                            <input type="radio" name="sex" value="male"><i class="i">是</i><input type="radio" name="sex" value="male"><i class="i" >否</i>
+                        </div>
+                        <div class="dv8">
+                            <span>添加描述：</span>
+                            <textarea name="" id="5" cols="30" rows="10"></textarea>
+                        </div>
+                    </form>
+                    <div class="btn">
+                        <a href="#" class="a1">确定</a>
+                        <a href="#" class="a2">取消</a>
+                    </div>
+                </div>
+                <!--新增品类-->
+                <div class="category interface" id="addCategory" style="display:none;">
+                    <h3 class="title top">新增品类<a href="#" class="closeBtn"></a></h3>
+                    <div class="dv1"><span><i>*</i>品类名称：</span><input type="text" value="水果"></div>
+                    <div class="btn"><a href="#" class="a1">确定</a><a href="#" class="a2">取消</a></div>
+                </div>
+                <!--删除品类-->
+                <div class="delete category interface" id="delCategory" style="display:none;">
+                <h3 class="title top">删除品类<a href="#" class="closeBtn"></a></h3>
+                <div class="dv1 clearfix">
+                    <span class="fl"><i>*</i>品类名称：</span>
+                    <!--<div class="sel-boxone" id="Tmcselect03">
+                        <input for="label" type="text" readonly value="水果">
+                        <ul class="sel-list" style="display:none;">
+                            <li data="">水果</li>
+                            <li data="">饮料</li>
+                            <li data="">酒水</li>
+                            <li data="">零食</li>
+                        </ul>
+                    </div>-->
+                    <select>
+                        <option value="">水果</option>
+                        <option value="">饮料</option>
+                        <option value="">酒水</option>
+                        <option value="">零食</option>
+                    </select>
+                </div>
+                <div class="btn"><a href="#" class="a1">确定删除</a><a href="#" class="a2">取消</a></div>
+            </div>
+            </div>
+            <div class="paging clearfix">
+                <div class="fl">共42条</div>
+                <div class="fr">
+                    <a href="#">&lt;</a>
+                    <a href="#">1</a>
+                    <a href="#">&gt;</a>
+                    <span>共3页</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--底部-->
+    <footer id="footer"><span>Copyright &copy; 2017</span>&emsp;西安嘿咪网络科技有限公司 版权所有</footer>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

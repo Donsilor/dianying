@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* 深圳市静江网络科技有限公司 */
+*,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust: 100%;}
+body{position:relative;font:16px/1 "Microsoft YaHei",Helvetica,sans-serif;color:#969696;margin:0;padding:0;}
+input{outline:none;}
+button{cursor:pointer;}
+ul,li,h1,h2,h3,h4,h5,h6,p{list-style-type:none;margin:0;padding:0;}
+img{border:none;}
+a{text-decoration:none;color:#555;margin:0;padding:0;}
+a:hover{text-decoration:none;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+.w{position:fixed;top:0;left:0;width:100%;height:100%;}
+
+select{font-size: 14px;font-family: "Microsoft YaHei";-webkit-appearance: none;-moz-appearance: none;appearance: none;background: url("../images/pic_4.png") no-repeat 95%;padding:0 10px;}
+input[type="radio"]{-webkit-appearance: none;-moz-appearance: none;appearance: none;width: 16px;height: 16px;background: url("../images/radioStyle.png") no-repeat center/100% 100%;}
+input[type="radio"]:checked{background: url("../images/radioStyle_check.png") no-repeat center/100% 100%;}
+
+/* 初始化样式结束 */
+
+/* 通用头部 */
+#header{position: fixed;top: 0;left: 0;width: 100%;height: 50px;background-color: #1BA794;color: #fff;}
+#header .logo{float: left;width: 160px;height: 100%;background: url("../images/logo.png") no-repeat center/auto 90% #1D9889;}
+#header>.title.fl{font: 20px/50px 'Microsoft Yahei';padding:0 40px;}
+#header>.userControl>*{float: left;height: 100%;line-height: 50px;}
+#header .userName{padding:0 30px;background: url("../images/userIcon.png") no-repeat 5px center;}
+#header .exit{width: 150px;border-left: 1px solid #fff;text-align: center;color: #fff;font-size: .9rem;background: url("../images/exitIcon.png") no-repeat 25% center/auto 45% #189080;padding-left: 2rem;}
+
+/* 通用侧边栏 */
+#aside{position: fixed;top: 50px;bottom: 30px;left: 0;width: 160px;background-color: #32323A;padding-top: 10px;}
+#aside .menu{overflow:hidden;}
+#aside .menu li.level1>a{display:block;height: 36px;font: 16px/36px 'Microsoft Yahei';color:#fff;padding-left: 40px;position: relative;transition:all .5s ease 0s;border-left: 4px solid transparent;}
+#aside .menu li.level1 a:hover{text-decoration:none;}
+#aside .menu li.level1 a.current{background:#384149;border-left: 4px solid rgb(220,190,70);}
+#aside .ico{width: 20px;height: 20px;display:block;position: absolute;left: 10px;top: 7px;}
+#aside .level1 i{width: 9px;height: 16px;display: block;position: absolute;right: 27px;top: 11px;background: url("../images/arrows.png") no-repeat center;}
+#aside .level1 i.down{-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);}
+#aside .ico1{background: url("../images/posIcon.png") no-repeat center;}
+#aside .ico2{background: url("../images/movieHallIcon.png") no-repeat center;}
+#aside .ico3{background: url("../images/memberControlIcon.png") no-repeat center;}
+#aside .ico4{background: url("../images/financeIcon.png") no-repeat center;}
+#aside .ico5{background: url("../images/productIcon.png") no-repeat center;}
+#aside .ico6{background: url("../images/giftIcon.png") no-repeat center;}
+#aside .ico7{background: url("../images/settingIcon.png") no-repeat center;}
+#aside .ico8{background: url("../images/appIcon.png") no-repeat center;}
+#aside .menu li ul{overflow: hidden;}
+#aside .menu li ul.level2{display: none;padding: 5px 0 10px;}
+#aside .menu li ul.level2 li a{display: block;font: 14px/28px 'Microsoft Yahei';color: #fff;padding-left: 50px;margin: 2px 0;transition:all .2s;}
+#aside .menu li ul.level2 li a.cur{text-decoration: underline;color: #218F81;}
+#aside .menu li ul.level2 li a:hover{text-decoration: underline;color: #218F81;}
+
+/* 主体 */
+#main{position: fixed;top: 50px;right: 0;bottom: 30px;left: 160px;padding: 8px 20px 0;background-color: #f5f5f5;}
+#main>.topBar{width: 100%;height: 31px;border-bottom: 1px solid #d9d9d9;margin-bottom: 12px;}
+#main>.topBar .location{padding-left: 37px;background: url("../images/homeIcon.png") no-repeat 12px center;font: 12px/30px 'Microsoft Yahei';color: #333;}
+#main>.topBar .location a.cur{color: #1BA794;}
+#main>.topBar .date{font: 12px/30px 'Microsoft Yahei';color: #464646;padding-right: 12px;}
+
+/*下拉框*/
+.sel-boxone{float: left;font-size: 14px;color: #777;line-height:26px;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius: 5px;position: relative;}
+.sel-boxone input{border:1px solid #ccc; width:100%;height: 100%;font: 16px/26px 'Microsoft Yahei';color: #333;padding-left: 10px;display: block;float: left; background: url(../images/pic_4.png) 94% center no-repeat;cursor: pointer;}
+.sel-list{background: #fff;position: absolute;top: 35px;right:0; width: 100%; border: 1px solid #ccc;border-top: none;z-index: 9;}
+.sel-list li{height: 30px;line-height: 30px;color: #333;cursor: pointer;font-size: 16px;}
+.sel-list li:hover{color: #fff;background: #008fe7;}
+
+/* 分页 */
+.paging{position: absolute;bottom: 0;left: 0;width: 100%;padding:0 30px 10px;line-height: 30px;color: #333;}
+.paging a{float: left;width: 30px;height: 30px;border: 1px solid #bbb;margin: 0 4px;text-align: center;font: 16px/28px 'Microsoft Yahei';color: #999;}
+.paging a:hover{color: #097ff9;}
+
+/* 通用底部 */
+#footer{position: fixed;bottom: 0;left: 0;width: 100%;height: 30px;background: url("../images/footerBg.jpg") repeat-x center/auto 100%;font: .8rem/30px 'Microsoft Yahei';text-align: center;color: #fff;}
+#footer>span{font-size: 12px;}
+
+/* 弹窗 */
+.popup{position: fixed;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(0,0,0,.4);display: none;}
+.popup .interface{position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);background-color: #fff;display: none;}
+.popup .interface>.top{width: 100%;height: 58px;background-color: #f5f5f5;text-align: center;font: 16px/58px 'Microsoft Yahei';color: #333;position: relative;}
+.closeBtn{position: absolute;top: 0;right: 0;width: 58px;height: 58px;background: url("../images/closeBtn.png") no-repeat center;}
+.closeBtn:hover{background-color: #ddd;}
+
+
+/* 弹窗样式 */
+.selPayMode{width: 90%;margin:60px auto 300px;}
+.selPayMode .payItem{float: left;width: calc(100% / 3);height: 55px;margin-bottom: 25px;padding-left: 2%;}
+.selPayMode .payItem label{display: inline-block;width: 159px;height: 55px;border-radius: 10px;border: 1px solid #e1e1e1;text-align: center;font:bold 18px/53px 'Microsoft Yahei';margin-left: 5px;cursor: pointer;padding-left: 25px;}
+.selPayMode .payItem:nth-child(1) label{color: #f1202a;background: url("../images/payMode_1.png") no-repeat 25% center;}
+.selPayMode .payItem:nth-child(2) label{color: #eeb52c;background: url("../images/payMode_2.png") no-repeat 25% center;}
+.selPayMode .payItem:nth-child(3) label{color: #3aa1e2;background: url("../images/payMode_3.png") no-repeat 25% center;}
+.selPayMode .payItem:nth-child(4) label{color: #08a1f8;background: url("../images/payMode_4.png") no-repeat 25% center;}
+.selPayMode .payItem:nth-child(5) label{color: #57b74b;background: url("../images/payMode_5.png") no-repeat 25% center;}
+.selPayMode .payItem:nth-child(6) label{color: #3bd3d7;background: url("../images/payMode_6.png") no-repeat 25% center;}
+.selPayMode .payItem.cur label{background-color: #e7fbf9;}
+.selPayMode .payItem input[type=radio]{width: 19px;height: 19px;-webkit-appearance: none;-moz-appearance: none;appearance: none;background: url("../images/radio_notsel.png") no-repeat center;}
+.selPayMode .payItem input[type=radio]:checked{background: url("../images/radio_sel.png") no-repeat center;}
+
+.popup .btns{text-align: center;position: absolute;bottom: 25px;left: 0;width: 100%;}
+.popup .btns a{display: inline-block;width: 113px;height: 34px;font: 1rem/34px 'Microsoft Yahei';color: #fff;text-align: center;background: url("../images/btnBg.jpg") repeat-y center/100%;border-radius: 5px;margin: 0 25px;}
+.popup .btns a.bgRed,.bgRed{background: #e73613;}
+.popup .btns a.affirmBtn{background: #a9a8a8;}
+
+.payInfoPopup .payInfo{height: 500px;padding: 20px 44px 0;}
+.payInfoPopup .payInfo>div{padding: 0;color: #111;}
+.payInfoPopup .payInfo>div span.fl{margin-right: 20px;}
+.payInfoPopup .payInfo>.mode{margin-bottom: 18px;line-height: 40px;}
+.payInfoPopup .payInfo>.mode div{width: 120px;height: 40px;border-radius: 10px;border: 1px solid #dadada;text-align: center;font: 16px/38px 'Microsoft Yahei';padding-left: 25px;}
+.payInfoPopup .payInfo>.mode div.payMode-cash{color: #f1202a;background: url("../images/payMode_1.png") no-repeat 20% center;}
+.payInfoPopup .payInfo>.mode div.payMode-clubCard{color: #eeb52c;background: url("../images/payMode_2.png") no-repeat 20% center;}
+.payInfoPopup .payInfo>.mode div.payMode-slotCard{color: #3aa1e2;background: url("../images/payMode_3.png") no-repeat 20% center;}
+.payInfoPopup .payInfo>.mode div.payMode-alipay{color: #08a1f8;background: url("../images/payMode_4.png") no-repeat 20% center;}
+.payInfoPopup .payInfo>.mode div.payMode-wechat{color: #57b74b;background: url("../images/payMode_5.png") no-repeat 20% center;}
+.payInfoPopup .payInfo>.mode div.payMode-groupon{color: #3bd3d7;background: url("../images/payMode_6.png") no-repeat 20% center;}
+
+.payInfoPopup .payInfo>.cardAndPhone span{line-height: 35px;}
+.payInfoPopup .payInfo>.cardAndPhone input{width: 150px;height: 35px;border: 1px solid #dadada;margin-right: 40px;padding: 0 15px;font: 16px/38px 'Microsoft Yahei';}
+
+.payInfoPopup .payInfo>.info{margin-top: 20px;background-color: rgb(231,251,249);padding: 10px 15px;}
+.payInfoPopup .payInfo>.info .line{font: 16px/30px 'Microsoft Yahei';padding: 5px 0;color: #444;}
+.payInfoPopup .payInfo>.info .line span{color: #1ba794;}
+.payInfoPopup .payInfo>.info .line input{width: 100px;height: 34px;border: 1px solid #d0c7c7;}

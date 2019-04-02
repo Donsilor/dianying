@@ -1,0 +1,98 @@
+#main .orderManage{height: 90%;background-color: #fff;border: 1px solid #e5e5e5;position: relative;}
+.orderManage{position:relative;}
+.orderManage .ma-top{line-height:35px;padding:20px 30px;}
+.orderManage .ma-top span{color:#333;padding-right:10px;}
+.orderManage .ma-top .dv1{width:150px;height:35px;border:1px solid #ccc;font-size:16px;color:#333;line-height:33px;margin-right:35px;padding: 0 10px;}
+.orderManage .ma-top .se1{width:130px;height:35px;border:1px solid #ccc;font-size:16px;color:#333;line-height:33px;margin-right:35px;}
+.orderManage .ma-top .se2{width:130px;height:35px;border:1px solid #ccc;font-size:16px;color:#333;line-height:33px;margin-right:20px;}
+.orderManage .ma-top a{display:block;text-align:center;line-height:35px;font-size:16px;color:#fff;}
+.orderManage .ma-top .a1{width:80px;height:35px;background-color:#1ba794;border-radius:5px;margin-right:20px;}
+.orderManage .ma-top .a2,.orderManage .ma-top .a3{width:100px;height:35px;border-radius:5px;background:url(../images/bag.png)repeat-y;}
+.orderManage .ma-top .a2{margin-right:20px;}
+.orderManage .ma-top .a4{color:#1ba794;text-decoration:underline;margin-left:20px;}
+.orderManage .bottom table .th1 input{width:14px;height:15px;margin-right:10px;}
+.orderManage .bottom table tr .t1 input{width:14px;height:15px;}
+.orderManage .bottom table tr .t8{font-size:16PX;color:#1bb234;}
+.orderManage .bottom table tr .t8 i{display:inline-block;width:14px;height:14px;background-color:#1bb234;border-radius:50%;margin-right:5px;vertical-align: middle;}
+.orderManage .bottom table .tr4 .t8{color:#9c9c9c;}
+.orderManage .bottom table .tr4 .t8 i{background-color:#9c9c9c; }
+.orderManage .bottom table .tr5 .t8{color:#e73613;}
+.orderManage .bottom table .tr5 .t8 i{background-color:#e73613; }
+
+
+.orderManage .bottom table tr .t9 a{font-size:16px;color:#097ff9;}
+.orderManage .bottom table tr .t9 .a1{padding-right:38px;}
+.orderManage .bottom{position:relative;}
+.orderManage .bottom table{border-top:1px solid #dadada;border-left:0;border-right:0;}
+.orderManage .bottom table td,.orderManage .bottom table th{text-align:center;height:40px;border-right:1px solid #dadada;border-bottom:1px solid #dadada;color:#111;
+    font-size: 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.orderManage .bottom table .last .td{border-bottom:0;}
+.orderManage .bottom table .tr1:hover{background-color:#f6fbff;}
+.orderManage .bottom table th{color:#1ba794;font-weight:500;}
+.orderManage .bottom table td:last-child,.orderManage .bottom table th:last-child{border-right:0;}
+.orderManage .bottom table td a{font-size:16px;color:#097ff9;}
+
+/*下架*/
+.orderManage .off{width:530px;height:288px;background-color:#fff;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.orderManage .off .title{height: 50px;}
+.orderManage .off .p1{text-align:center;padding-top:75px;font-size:16px;color:#333;}
+.orderManage .off .p2{padding-top:80px;}
+.orderManage .off .p2 a{display:inline-block;width:80px;height:30px;text-align:center;line-height:30px;}
+.orderManage .off .p2 .a1{background-color:#1ba794;margin:0 20px 0 175px;color:#fff;border-radius:5px;}
+.orderManage .off .p2 .a2{border:1px solid #1ba794;color:#1ba794;border-radius:5px;}
+/*编辑*/
+.orderManage .edit{width:530px;height:560px;background-color:#fff;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.orderManage .edit .title{width:100%;height:50px;background-color:#eee;text-align:center;line-height:50px;border-top-left-radius:5px;border-top-right-radius:5px;color:#333;font-size:16px;font-weight:500;}
+.orderManage .edit .ed-content{width:435px;margin:10px auto 0;height:auto;}
+.orderManage .edit .ed-content>div{height:30px;line-height:30px;margin-bottom:10px;}
+.orderManage .edit .ed-content>div span{display:inline-block;width:30%;text-align:right;float: left;}
+.orderManage .edit .ed-content>div span i{color:#f15f5f;padding-right:4px;}
+.orderManage .edit .ed-content>div input[type="text"]{width:230px;height:30px;font-size:14px;color:#101010;box-sizing: border-box;padding-left:10px;border: 1px solid #e1e1e1;}
+.orderManage .edit .ed-content .dv2 select{width:230px;height:30px;border:1px solid #e1e1e1;font-size:14px;color:#101010;box-sizing: border-box;padding-left:10px;}
+.orderManage .edit .ed-content .dv6{height:86px;}
+.orderManage .edit .ed-content .dv6 span{vertical-align: top;}
+.orderManage .edit .ed-content .dv6 .img{width:86px;height:86px;border:1px solid #e1e1e1;display:inline-block;background:url(../images/colo.jpg)no-repeat center center;cursor: pointer;}
+.orderManage .edit .ed-content .dv6 .img a{width:84px;height:24px;display:inline-block;text-align:center;line-height:24px;color:#fff;
+    background:rgba(1,1,1,0.6);font-size:12px;margin-top:60px;}
+.orderManage .edit .ed-content .dv7 input{display:inline-block;width:16px;height:16px;vertical-align: middle;}
+.orderManage .edit .ed-content .dv7 .i{font-size:14px;color:#333232;vertical-align: middle;font-style: inherit;padding:0 35px 0 10px;}
+.orderManage .edit .ed-content .dv8 textarea{width:298px;height:60px;border:1px solid #e1e1e1;resize: none;padding-left:5px;box-sizing: border-box;}
+.orderManage .edit .ed-content .dv8 span{vertical-align: top;}
+.orderManage .edit .btn{width:436px;margin:65px auto 0;border-top:2px solid #eee;text-align:center;position: absolute;bottom: 10px;left: 50%;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);}
+.orderManage .edit .btn a{width:80px;height:30px;display:inline-block;border-radius:5px;margin-top:20px;text-align:center;line-height:30px;}
+.orderManage .edit .btn .a1{background-color:#1ba794;line-height:28px;color:#fff;margin-right:20px;}
+.orderManage .edit .btn .a2{border:1px solid #1ba794;line-height:28px;color:#1ba794;}
+/*新增商品*/
+.orderManage .commodity .ed-content .dv6 .img{width:85px;height:85px;border:0;background:#eee;}
+.orderManage .commodity .ed-content .dv6 .img a{width:100%;height:85px;background:url(../images/jia.png)no-repeat center center;margin:0;}
+.orderManage .commodity .ed-content .dv6 .text{display:inline-block;vertical-align: top;margin:15px 0 0 10px;}
+.orderManage .commodity .ed-content .dv6 .text p{font-size:12px;color:#adadad;line-height:18px;}
+/*新增品类*/
+.orderManage .category{width:530px;height:290px;background-color:#fff;position:absolute;z-index:1;top:50%;left:50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.orderManage .category .title{width:100%;height:50px;background-color:#eee;text-align:center;line-height:50px;border-top-left-radius:5px;border-top-right-radius:5px;color:#333;font-size:16px;font-weight:500;}
+.orderManage .category .dv1{margin-top:30px;}
+.orderManage .category .dv1 span{display:inline-block;width:30%;font-size:14px;color:#333;text-align:right;line-height: 30px;}
+.orderManage .category .dv1 input{width: 230px;height: 30px;font-size: 14px;font-family: "Microsoft YaHei";padding: 0 10px;}
+.orderManage .category .dv1 span i{color:#f15f5f;padding-right:4px;}
+.orderManage .category .dv1 select{width:230px;height:30px;border:1px solid #e1e1e1;font-size:14px;color:#101010;box-sizing: border-box;padding-left:10px;}
+.orderManage .category .dv1 .sel-list{top: 30px;}
+.orderManage .category .btn{width:436px;height:85px;border-top:2px solid #eee;margin:95px auto 0;text-align:center;}
+.orderManage .category .btn a{display:inline-block;width:80px;height:30px;margin-top:20px;text-align:center;border-radius:5px;font-size:14px;}
+.orderManage .category .btn .a1{background-color:#1ba794;line-height:30px;color:#fff;margin-right:20px;}
+.orderManage .category .btn .a2{border:1px solid #1ba794;line-height:28px;color:#1ba794;}
+
+
+.closeBtn{width: 50px;height: 50px;}
+
+.sel-boxone{border-radius: 0;}
+.sel-boxone input{border: none;}
+.sel-list{top: 30px;}
+
+
+@media only screen and (max-width: 1600px){
+
+}
+
+@media only screen and (max-width: 1420px){
+
+}

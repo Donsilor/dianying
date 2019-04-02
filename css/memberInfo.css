@@ -1,0 +1,80 @@
+#main .orderManage{height: 90%;background-color: #fff;border: 1px solid #e5e5e5;position: relative;}
+.orderManage{position:relative;}
+.orderManage .top{line-height:35px;padding: 30px;}
+.orderManage .top span{font-size:20px;color:#333;padding:0 5px;}
+.orderManage .top input{display:inline-block;border:1px solid #ccc;height:35px;padding: 0 10px;line-height:33px;box-sizing:border-box;color:#858585;}
+.orderManage .top .ip1{width:182px;margin-right:20px;}
+.orderManage .top .ip2{width:182px;margin-right:20px;}
+.orderManage .top .ip3{width:118px;height:35px;border:0;background:#1ba794;border-radius:5px;font-size:16px;color:#fff;text-align:center;cursor: pointer;padding: 0;}
+.orderManage .top .ip4{width:140px;margin-right:85px;background:url(../images/bag.png)repeat-y;border-radius:5px;color:#fff;border:0;cursor: pointer;font-size: 16px;}
+.orderManage .bottom table{border-top:1px solid #dadada;border-left:1px solid #dadada;}
+.orderManage .bottom table td,.orderManage .bottom table th{text-align:center;height:40px;border-right:1px solid #dadada;border-bottom:1px solid #dadada;color:#111;font-size: 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.orderManage .bottom table .last .td{border-bottom:0;}
+.orderManage .bottom table .tr1:hover{background-color:#f6fbff;}
+.orderManage .bottom table tr th{font-size:18px;color:#1ba794;font-weight:500;}
+.orderManage .bottom table tr td{font-size:16px;color:#333;}
+.orderManage .bottom table tr td:last-child .a1{color:#097ff9;margin-right:38px;}
+.orderManage .bottom table tr td:last-child .a2{color:#e73613;}
+
+/*弹窗*/
+.orderManage .add{width:530px;height:570px;position:absolute;top:50%;left:50%;background-color:#fff;z-index: 9;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.orderManage .add .title{width:100%;height:50px;background-color:#eee;border-top-left-radius:5px;border-top-right-radius:5px;text-align:center;position:relative;}
+.orderManage .add .title h3{line-height:50px;font-size:20px;color:#333;font-weight:500;}
+.orderManage .add .content ul li{display:block;width:100%;}
+.orderManage .add .content ul li span{display:inline-block;width:30%;text-align:right;font-size:14px;color:#888686;position:relative;margin-right:28px;padding-top:7px;}
+.orderManage .add .content ul li .sp1:before{position:absolute;content:"";background:url(../images/user.png)no-repeat;width:14px;height:15px;right:52px;top:7px;}
+.orderManage .add .content ul li .sp2:before{position:absolute;content:"";background:url(../images/xb.png)no-repeat;width:16px;height:14px;right:52px;top:8px;}
+.orderManage .add .content ul li .sp3:before{position:absolute;content:"";background:url(../images/phone.png)no-repeat;width:11px;height:15px;right:52px;top:7px;}
+.orderManage .add .content ul li .sp4:before{position:absolute;content:"";background:url(../images/yz.png)no-repeat;width:15px;height:14px;right:52px;top:8px;}
+.orderManage .add .content ul .hy{margin:20px 0 22px 0;}
+.orderManage .add .content ul .hy input{width:230px;height:30px;border:1px solid #ccc;font-size:14px;color:#101010;padding-left:10px;box-sizing:border-box;}
+.orderManage .add .content ul .xb{margin-bottom:22px;}
+.orderManage .add .content ul .xb input{width:16px;height:16px;}
+.orderManage .add .content ul .xb i{color:#333232;font-size:14px;font-style:inherit;padding:0 36px 0 10px;line-height:14px;}
+.orderManage .add .content ul .phone{margin-bottom:15px;vertical-align:middle;}
+.orderManage .add .content ul .phone input{width:230px;height:30px;border:1px solid #ccc;font-size:14px;color:#101010;padding-left:10px;box-sizing:border-box;}
+.orderManage .add .content ul .yz>div .ip4{width:135px;height:30px;border:1px solid #ccc;font-size:14px;color:#adabab;padding-left:10px;box-sizing:border-box;}
+.orderManage .add .content ul .yz>div .ip5{width:83px;height:30px;border:1px solid #ffa722;background-color:#fff;color:#ffa722;font-size:14px;cursor:pointer;}
+.orderManage .add .content ul .yz>div span{font-size:12px;color:#1ba794;padding-top:5px;text-align:left;opacity: 0;}
+.orderManage .add .content ul .li2 span{font-size:16px;color:#333;}
+.orderManage .add .content ul .cz{margin:10px 0 15px 0;}
+.orderManage .add .content ul .cz select{width:180px;height:30px;border:1px solid #ccc;}
+.orderManage .add .content ul .mz>div{width:246px;height:auto;}
+.orderManage .add .content ul .mz>div input{/*width:16px;height:16px;*/margin-right:8px;margin-bottom:28px;}
+.orderManage .add .content ul .mz>div i{font-size:16px;color:#333;font-style:inherit;margin-right:12px;}
+.orderManage .add .content ul .mz>div .sel-boxone{width:120px;height:30px;margin-top:-6px;}
+.orderManage .add .content ul .mz>div select{width:120px;height:30px;margin-top:-6px;}
+.orderManage .add .content ul .je>div .sp8{font-size:18px;color:#e73613;width: auto;margin-right:0;}
+.orderManage .add .content ul .je>div i{font-size:16px;color:#1ba794;font-style:inherit;padding-left:10px;}
+.orderManage .btn{width:436px;border-top:2px solid #eee;text-align:center;position: absolute;bottom: 20px;left: 50%;transform: translateX(-50%);}
+.orderManage .btn a{display:inline-block;width:80px;height:30px;background-color:#1ba794;line-height:30px;text-align:center;font-size:14px;color:#fff;border-radius:5px;margin-top:20px;}
+.orderManage .btn .a2{border:1px solid #1ba794;color:#1ba794;margin-left:20px;background-color:#fff;}
+.modify{height:396px;}
+.recharge{height:500px;}
+#hycz{width:370px;height:124px;background-color:#eee;margin:10px auto 0;padding:22px 0 0 28px;box-sizing: border-box;}
+#hycz p{padding-bottom:18px;}
+#hycz p span{font-size:14px;color:#888686;text-align:left;padding:0;margin:0;}
+#hycz p .spn1{width:48%;display:inline-block;}
+#hycz p .spn2{width:48%;display:inline-block;}
+#hycz p span i{font-style:inherit;}
+#hycz .p2 .spn1 i{color:#1ba794;}
+
+.padT8{padding-top: 8px;}
+
+.closeBtn{width: 50px;height: 50px;}
+
+.sel-boxone{height: 30px;border-radius: 0;border: none;}
+.sel-list{top: 30px;}
+.sel-list li{padding-left: 10px;}
+#amend{height: 350px;}
+#pay{height: 500px;}
+
+@media only screen and (max-width: 1420px){
+    .orderManage .bottom table tr th{font-size: 1rem;}
+    .orderManage .top span{font-size: 1rem;}
+    .orderManage .top .ip1{margin-right: 3%;}
+    .orderManage .top .ip2{width: 182px;font-size: .8rem;padding: 0 10px;}
+    .orderManage .top .ip3{width: 80px;}
+    .orderManage .top .ip4{width: 120px;}
+}
+

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交易记录</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="小鸟观映">
+    <meta name="description" content="小鸟观映">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/dealRecord.css">
+</head>
+<body>
+<div class="w">
+    <!--头部-->
+    <header id="header">
+        <a href="#" class="logo"></a>
+        <span class="title fl">商户后台管理中心</span>
+        <div class="userControl fr">
+            <span class="userName">: admin</span>
+            <a href="#" class="exit">退出系统</a>
+        </div>
+    </header>
+    <!--侧边栏-->
+    <aside id="aside">
+        <ul class="menu">
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico1"></em>POS收银<i></i></a>
+                <ul class="level2" >
+                    <li><a href="javascript:;">POS收银</a></li>
+                    <li><a href="javascript:;">预约详情</a></li>
+                    <li><a href="javascript:;" >订单管理</a></li>
+                    <li><a href="javascript:;">卖品</a></li>
+                    <li><a href="javascript:;">信息推送</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico2"></em>影厅管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">影厅设置</a></li>
+                    <li><a href="javascript:;">人员管理</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit current"><em class="ico ico3"></em>会员管理<i  class="down"></i></a>
+                <ul class="level2" style="display:block;">
+                    <li><a href="javascript:;">会员信息</a></li>
+                    <li><a href="javascript:;" class="cur">交易记录</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico4"></em>财务管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">财务统计</a></li>
+                    <li><a href="javascript:;">订单数据</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico5"></em>商品管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">商品管理</a></li>
+                    <li><a href="javascript:;">卖品订单</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico6"></em>促销管理<i></i></a>
+                <ul class="level2" >
+                    <li><a href="javascript:;" >会员促销</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico7"></em>系统设置<i></i></a>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico8"></em>APP系统<i></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!--主体-->
+    <section id="main">
+        <div class="topBar">
+            <div class="location fl">
+                <a>首页</a> &gt; <a>会员管理</a> &gt; <a class="cur">交易记录</a>
+            </div>
+            <div class="date fr">
+                2017年05月20日&emsp;&emsp;16:18:10&emsp;&emsp;星期五
+            </div>
+        </div>
+        <div class="orderManage">
+            <div class="tab">
+                <div class="tab-title">
+                    <a href="javascript:;" class="item item-cur">充值记录</a>
+                    <a href="javascript:;" class="item">消费记录</a>
+                </div>
+                <div class="tab-cont">
+                    <ul class="tab-cont__wrap">
+                        <li class="item li1">
+                            <div class="find clearfix">
+                                <span class="sp1 fl">交易类型</span>
+                                <select class="fl">
+                                    <option value="">1人厅</option>
+                                    <option value="">2人厅</option>
+                                    <option value="">3人厅</option>
+                                    <option value="">4人厅</option>
+                                </select>
+                                <span class="sp2 fl">时间范围</span>
+                                <div class="time time1 fl">
+                                    <input placeholder="请输入日期" class="laydate-icon" onclick="laydate()"><i class="fr"></i>
+                                </div>
+                                <span class="sp3 fl">至</span>
+                                <div class="time time2 fl">
+                                    <input placeholder="请输入日期" class="laydate-icon" onclick="laydate()"><i class="fr"></i>
+                                </div>
+                                <input type="submit" class="submit fl" value="查找">
+                            </div>
+                            <div class="details">
+                                <table cellpadding="0" cellspacing="0" >
+                                    <tr>
+                                        <th width="238">会员卡号</th>
+                                        <th width="237">手机号码</th>
+                                        <th width="237">时间</th>
+                                        <th width="218">会员名称 </th>
+                                        <th width="218">交易方式</th>
+                                        <th width="218">交易类型</th>
+                                        <th width="260">交易金额</th>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>王xx</td>
+                                        <td>现金</td>
+                                        <td>添加</td>
+                                        <td>3545</td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>张三山</td>
+                                        <td>现金</td>
+                                        <td>充值</td>
+                                        <td>89456</td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>李思思</td>
+                                        <td>支付宝</td>
+                                        <td>充值</td>
+                                        <td>46464</td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>刘五</td>
+                                        <td>微信</td>
+                                        <td>添加</td>
+                                        <td>4564645</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </li>
+                        <li class="item li2" style="display:none;">
+                            <div class="find clearfix">
+                                <span class="sp1 fl">交易类型</span>
+                                <select class="fl">
+                                    <option value="">所有</option>
+                                    <option value="">影厅1</option>
+                                    <option value="">影厅2</option>
+                                    <option value="">影厅3</option>
+                                </select>
+                                <span class="sp2 fl">时间范围</span>
+                                <div class="time time1 fl">
+                                    <input placeholder="请输入日期" class="laydate-icon" onclick="laydate()"><i class="fr"></i>
+                                </div>
+                                <span class="sp3 fl">至</span>
+                                <div class="time time2 fl">
+                                    <input placeholder="请输入日期" class="laydate-icon" onclick="laydate()"><i class="fr"></i>
+                                </div>
+                                <input type="submit" class="submit fl" value="查找">
+                            </div>
+                            <div class="details">
+                                <table cellpadding="0" cellspacing="0" >
+                                    <tr>
+                                        <th width="238">会员卡号</th>
+                                        <th width="237">手机号码</th>
+                                        <th width="237">时间</th>
+                                        <th width="218">会员名称 </th>
+                                        <th width="218">消费类型</th>
+                                        <th width="218">消费金额</th>
+                                        <th width="260">操作</th>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>王xx</td>
+                                        <td>观影</td>
+                                        <td>1809</td>
+                                        <td><a href="#" class="a1">详情</a></td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>张三山</td>
+                                        <td>购买卖品</td>
+                                        <td>1809</td>
+                                        <td><a href="#" class="a1">详情</a></td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>李思思</td>
+                                        <td>观影</td>
+                                        <td>1809</td>
+                                        <td><a href="#" class="a1">详情</a></td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>201705220001</td>
+                                        <td>13800998822</td>
+                                        <td>2017-05-22  09:23:03</td>
+                                        <td>刘五</td>
+                                        <td>观影</td>
+                                        <td>1809</td>
+                                        <td><a href="#" class="a1">详情</a></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="details" class="popup">
+                <!--弹出详情-->
+                <div class="t-details">
+                <div class="title"><h3>订单详情</h3><a href="#" class="closeBtn"></a></div>
+                <div class="orderdetails">
+                    <p class="p1"><span class="sp1">订单编号：</span><span class="sp2">201705220003</span></p>
+                    <p class="p2"><span class="sp1">下单时间：</span><span class="sp2">2017-05-22  19:09</span></p>
+                    <p class="p3"><span class="sp1">订单状态：</span><span class="sp3">交易成功</span></p>
+                    <p class="p4"><span class="sp1">收款时间：</span><span class="sp2">2017-05-22  22:00</span></p>
+                    <p class="p5"><span class="sp1">已付金额：</span><span class="sp3">¥140</span></p>
+                    <i></i>
+                </div>
+                <div class="shopping">
+                    <p class="p1"><span class="sp1">包时电影  </span><span class="sp2">  x2 </span><span class="sp3"> ¥20 </span></p>
+                    <p class="p1"><span class="sp1">手撕面包  </span><span class="sp2">  x2 </span><span class="sp3"> ¥20 </span></p>
+                    <p class="p1"><span class="sp1">康师傅冰红茶  </span><span class="sp2">  x2 </span><span class="sp3"> ¥20 </span></p>
+                    <p class="p4">总计：140元</p>
+                    <i></i>
+                </div>
+                <div class="button">
+                    <a href="#" class="a1">确定</a>
+                    <a href="#" class="a2">取消</a>
+                </div>
+            </div>
+            </div>
+            <div class="paging clearfix">
+                <div class="fl">共42条</div>
+                <div class="fr">
+                    <a href="#">&lt;</a>
+                    <a href="#">1</a>
+                    <a href="#">&gt;</a>
+                    <span>共3页</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--底部-->
+    <footer id="footer"><span>Copyright &copy; 2017</span>&emsp;西安嘿咪网络科技有限公司 版权所有</footer>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="laydate/laydate.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

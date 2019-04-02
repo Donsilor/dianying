@@ -1,0 +1,49 @@
+#main .orderManage{height: 75%;background-color: #fff;border: 1px solid #e5e5e5;position: relative;}
+.orderManage .bottom table td,.orderManage .bottom table th{text-align:center;height:40px;border-right:1px solid #dadada;border-bottom:1px solid #dadada;color:#111;
+    font-size: 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.orderManage .bottom table .last .td{border-bottom:0;}
+.orderManage .bottom table .tr1:hover{background-color:#f6fbff;}
+.orderManage .bottom table tr th{font-size:18px;color:#1ba794;font-weight:500;}
+.orderManage .bottom table tr td{font-size:16px;color:#333;}
+.orderManage .bottom table tr td:last-child a{font-size:16px;color:#097ff9;}
+.orderManage .bottom table tr td:last-child .a1{margin-right:36px;}
+#main .title{width:100%;height:75px;background-color:#fff;margin-bottom:15px;line-height:75px;padding: 0 190px 0 10px;}
+#main .title .name{color:#32323a;padding-left:10px;}
+#main .title .name i{font-style:inherit;color:#fcc003;padding-left:10px;}
+#main .title .number{color:#0e0e0e;padding-left:10%;}
+#main .title .btn{display:inline-block;width:110px;height:35px;background:url(../images/bag.png)repeat-y;border-radius:5px;color:#fff;line-height:35px;text-align:center;margin:20px 0;}
+/*弹窗*/
+.orderManage .addEmployee{width:530px;height:430px;background-color:#fff;position:absolute;left:50%;top:50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.orderManage .addEmployee .add-title{width:100%;height:50px;border-top-left-radius:5px;border-top-right-radius:5px;background-color:#eee;
+text-align:center;position:relative;}
+.orderManage .addEmployee .add-title h3{font-size:20px;color:#333;line-height:50px;font-weight:500;}
+/*.orderManage .addEmployee .add-title a{position:absolute;right:15px;top:15px;display:inline-block;width:23px;height:22px;background:url(../images/shutDown.png)no-repeat;}*/
+.orderManage .addEmployee .information>div{margin-bottom:15px;}
+.orderManage .addEmployee .information .dv1{margin-top:30px;}
+.orderManage .addEmployee .information>div span{display:inline-block;width:30%;text-align:right;font-size:14px;color:#333;margin-right:15px;}
+.orderManage .addEmployee .information>div span i{color:#ee1c1c;padding-right:5px;}
+.orderManage .addEmployee .information>div input[type="text"]{width:230px;height:30px;border:1px solid #ccc;padding-left:10px;}
+.orderManage .addEmployee .information>div select{width:230px;height:30px;border:1px solid #ccc;padding-left:10px;
+    box-sizing:border-box;font-size:14px;color:#101010;}
+.orderManage .addEmployee .information .dv3{margin:20px 0;}
+.orderManage .addEmployee .information .dv3 input{width:16px;height:16px;}
+.orderManage .addEmployee .information .dv3 i{font-style:inherit;color:#333;font-size:14px;padding:0 35px 0 10px;}
+.orderManage .addEmployee .information .dv5 select{width:230px;height:30px;border:1px solid #ccc;padding-left:5px;box-sizing:border-box;font-size:14px;color:#101010;line-height: 28px;}
+.orderManage .addEmployee .information .dv5 span{padding-top: 8px;}
+.orderManage .addEmployee .button{width:436px;height:80px;margin:0 auto;border-top:2px solid #ccc;margin-top:64px;text-align:center;}
+.orderManage .addEmployee .button a{display:inline-block;width:80px;height:30px;font-size:14px; border-radius:5px;text-align:center;
+margin-top:20px;}
+.orderManage .addEmployee .button .a1{margin-right:20px;background-color:#1ba794;color:#fff;line-height:30px;}
+.orderManage .addEmployee .button .a2{border:1px solid #1ba794;color:#1ba794;line-height:28px;}
+#delPopup{position:absolute;left:50%;top:50%;width:530px;height:288px;background-color:#fff;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+#delPopup .a1{position:absolute;right:15px;top:15px;display:inline-block;width:23px;height:22px;
+    background:url(../images/shutDown.png)no-repeat;}
+#delPopup p{text-align:center;font-size:16px;color:#333;padding-top:78px;}
+#delPopup .btn{position:absolute;left:32%;bottom:35px;}
+#delPopup .btn a{display:inline-block;width:80px;height:30px;font-size:14px; border-radius:5px;text-align:center;}
+#delPopup .btn .a2{margin-right:20px;background-color:#1ba794;color:#fff;line-height:30px;}
+#delPopup .btn .a3{border:1px solid #1ba794;color:#1ba794;line-height:28px;}
+
+.closeBtn{width: 50px;height: 50px;cursor: pointer;}
+
+.sel-list{top: 30px;}

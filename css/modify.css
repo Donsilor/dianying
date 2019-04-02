@@ -1,0 +1,18 @@
+.content .modify-column{width:40%;height:100%;background-color:#fff;}
+.content .modify-column{text-align:center;}
+.content .modify-column h2{font-size:24px;color:#333;font-weight:normal;margin:80px 0 50px;}
+.content .modify-column>div{width:85%;height:40px;border-bottom:1px solid #f2f2f2;margin:0 auto 10px;text-align:left;}
+.content .modify-column>div span{float: left;width:16px;height:16px;vertical-align: middle;margin: 12px 10px 0 0;}
+.content .modify-column .number span{background:url(../images/number.png) no-repeat center/auto 100%;}
+.content .modify-column .phone span{background:url(../images/phone-b.png) no-repeat center/auto 100%;}
+.content .modify-column .s-password span{background:url(../images/password.png) no-repeat center/auto 100%;}
+.content .modify-column .q-password span{background:url(../images/password.png) no-repeat center/auto 100%;}
+.content .modify-column .verification span{background:url(../images/yz-b.png) no-repeat center/auto 100%;}
+.content .modify-column>div input{width:210px;height: 100%;border:0;font-size:14px;color:#666;}
+.content .modify-column>div .authCode{width: 120px !important;}
+.content .modify-column .verification .ip2{width:auto;font-size:14px;color:#1ba794;cursor:pointer;float: right;}
+.content .modify-column .submit{width:160px;height:auto; border:0;line-height:0;margin:60px auto 0;}
+.content .modify-column .submit input{width:160px;height:35px;background-color:#1ba794;color:#fff;text-align:center;line-height:35px;border-radius:24px;cursor:pointer;}
+
+
+

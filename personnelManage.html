@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人员管理</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="小鸟观映">
+    <meta name="description" content="小鸟观映">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/personnelManage.css">
+</head>
+<body>
+<div class="w">
+    <!--头部-->
+    <header id="header">
+        <a href="#" class="logo"></a>
+        <span class="title fl">商户后台管理中心</span>
+        <div class="userControl fr">
+            <span class="userName">: admin</span>
+            <a href="#" class="exit">退出系统</a>
+        </div>
+    </header>
+    <!--侧边栏-->
+    <aside id="aside">
+        <ul class="menu">
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico1"></em>POS收银<i></i></a>
+                <ul class="level2" >
+                    <li><a href="javascript:;">POS收银</a></li>
+                    <li><a href="javascript:;">预约详情</a></li>
+                    <li><a href="javascript:;" >订单管理</a></li>
+                    <li><a href="javascript:;">卖品</a></li>
+                    <li><a href="javascript:;">信息推送</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit current"><em class="ico ico2"></em>影厅管理<i  class="down"></i></a>
+                <ul class="level2" style="display:block;">
+                    <li><a href="javascript:;">影厅设置</a></li>
+                    <li><a href="javascript:;" class="cur">人员管理</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico3"></em>会员管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员信息</a></li>
+                    <li><a href="javascript:;" >交易记录</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico4"></em>财务管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">财务统计</a></li>
+                    <li><a href="javascript:;">订单数据</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico5"></em>商品管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">商品管理</a></li>
+                    <li><a href="javascript:;">卖品订单</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico6"></em>促销管理<i></i></a>
+                <ul class="level2" >
+                    <li><a href="javascript:;" >会员促销</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico7"></em>系统设置<i></i></a>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico8"></em>APP系统<i></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!--主体-->
+    <section id="main">
+        <div class="topBar">
+            <div class="location fl">
+                <a>首页</a> &gt; <a>影厅管理</a> &gt; <a class="cur">人员管理</a>
+            </div>
+            <div class="date fr">
+                2017年05月20日&emsp;&emsp;16:18:10&emsp;&emsp;星期五
+            </div>
+        </div>
+        <div class="title">
+            <span class="name">影院名称：小鸟观映 <i>（世纪金花店）</i></span>
+            <span class="number">员工人数：18</span>
+            <a href="#" class="btn fr" id="addStaff">+添加员工</a>
+        </div>
+        <div class="orderManage">
+            <div class="bottom">
+                <table cellpadding="0" cellspacing="0" >
+                    <tr>
+                        <th width="238">编号</th>
+                        <th width="237">姓名</th>
+                        <th width="237">性别</th>
+                        <th width="218">手机号</th>
+                        <th width="218">职位</th>
+                        <th width="218">最后登录时间</th>
+                        <th width="260">操作</th>
+                    </tr>
+                    <tr class="tr1">
+                        <td>002</td><td>刘五</td><td>女</td><td>13800998822</td><td>收银员</td><td>2017-05-22  09:23:03</td>
+                        <td><a href="#" class="a1">编辑</a><a href="#" class="a2">删除</a></td>
+                    </tr>
+                    <tr class="tr2">
+                        <td>002</td><td>刘五</td><td>女</td><td>13800998822</td><td>清扫人员</td><td>2017-05-22  09:23:03</td>
+                        <td><a href="#" class="a1">编辑</a><a href="#" class="a2">删除</a></td>
+                    </tr>
+                    <tr class="tr3">
+                        <td>002</td><td>刘五</td><td>女</td><td>13800998822</td><td>服务生</td><td>2017-05-22  09:23:03</td>
+                        <td><a href="#" class="a1">编辑</a><a href="#" class="a2">删除</a></td>
+                    </tr>
+                    <tr class="tr4">
+                        <td>002</td><td>王xx</td><td>女</td><td>13800998822</td><td>店长</td><td>2017-05-22  09:23:03</td>
+                        <td><a href="#" class="a1">编辑</a><a href="#" class="a2">删除</a></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div id="handle" class="popup" style="display:none;">
+                <!--弹窗-->
+                <!--添加员工-->
+                <div class="addEmployee" id="addEmployee" style="display:none;">
+                    <div class="add-title">
+                        <h3>添加员工</h3>
+                        <a class="closeBtn"></a>
+                    </div>
+                    <div class="information">
+                        <div class="dv1">
+                            <span><i>*</i>编号：</span><input type="text" value="018">
+                        </div>
+                        <div class="dv2">
+                            <span><i>*</i>姓名：</span><input type="text" value="张柒">
+                        </div>
+                        <div class="dv3 clearfix">
+                            <span class="fl">性别：</span>
+                            <input type="radio" name="radio" class="fl"><i class="fl">男</i>
+                            <input type="radio" name="radio" class="fl"><i class="fl">女</i>
+                        </div>
+                        <div class="dv4">
+                            <span>手机号：</span><input type="text" value="158 0005 8866">
+                        </div>
+                        <div class="dv5 clearfix">
+                            <span class="fl"><i>*</i>职位：</span>
+                            <!--<div class="sel-boxone fl" id="Tmcselect01">
+                                <input for="label" title="" type="text" readonly value="微信支付">
+                                <ul class="sel-list" style="display:none;">
+                                    <li data="1">微信支付</li>
+                                    <li data="2">支付宝支付</li>
+                                    <li data="3">现金</li>
+                                </ul>
+                            </div>-->
+                            <select class="fl">
+                                <option value="">微信支付</option>
+                                <option value="">支付宝支付</option>
+                                <option value="">现金</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="a1">确定</a>
+                        <a href="#" class="a2">取消</a>
+                    </div>
+                </div>
+                <!--编辑-->
+                <div class="addEmployee" id="editEmployee" style="display:none;">
+                    <div class="add-title">
+                        <h3>编辑</h3>
+                        <a class="closeBtn"></a>
+                    </div>
+                    <div class="information">
+                        <div class="dv1">
+                            <span><i>*</i>编号：</span><input type="text" value="018">
+                        </div>
+                        <div class="dv2">
+                            <span><i>*</i>姓名：</span><input type="text" value="张柒">
+                        </div>
+                        <div class="dv3 clearfix">
+                            <span class="fl">性别：</span>
+                            <input type="radio" name="radio" class="fl"><i class="fl">男</i>
+                            <input type="radio" name="radio" class="fl"><i class="fl">女</i>
+                        </div>
+                        <div class="dv4">
+                            <span>手机号：</span><input type="text" value="158 0005 8866">
+                        </div>
+                        <div class="dv5 clearfix">
+                            <span class="fl"><i>*</i>职位：</span>
+                            <!--<div class="sel-boxone fl" id="Tmcselect02">
+                                <input for="label" title="" type="text" readonly value="微信支付">
+                                <ul class="sel-list" style="display:none;">
+                                    <li data="1">微信支付</li>
+                                    <li data="2">支付宝支付</li>
+                                    <li data="3">现金</li>
+                                </ul>
+                            </div>-->
+                            <select class="fl">
+                                <option value="">微信支付</option>
+                                <option value="">支付宝支付</option>
+                                <option value="">现金</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="a1">确定</a>
+                        <a href="#" class="a2">取消</a>
+                    </div>
+                </div>
+                <!--删除-->
+                <div id="delPopup" style="display:none">
+                    <a href="#" class="closeBtn"></a>
+                    <p>确定要删除该员工吗？</p>
+                    <div class="btn">
+                        <a href="#" class="a2">确定</a>
+                        <a href="#" class="a3">取消</a>
+                    </div>
+                </div>
+            </div>
+            <div class="paging clearfix">
+                <div class="fl">共42条</div>
+                <div class="fr">
+                    <a href="#">&lt;</a>
+                    <a href="#">1</a>
+                    <a href="#">&gt;</a>
+                    <span>共3页</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--底部-->
+    <footer id="footer"><span>Copyright &copy; 2017</span>&emsp;西安嘿咪网络科技有限公司 版权所有</footer>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

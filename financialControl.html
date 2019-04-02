@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>财务统计</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="小鸟观映">
+    <meta name="description" content="小鸟观映">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/financialControl.css">
+</head>
+<body>
+<div class="w">
+    <!--头部-->
+    <header id="header">
+        <a href="#" class="logo"></a>
+        <span class="title fl">商户后台管理中心</span>
+        <div class="userControl fr">
+            <span class="userName">: admin</span>
+            <a href="#" class="exit">退出系统</a>
+        </div>
+    </header>
+    <!--侧边栏-->
+    <aside id="aside">
+        <ul class="menu">
+            <li class="level1">
+                <a href="javascript:;" class="tit "><em class="ico ico1"></em>POS收银<i></i></a>
+                <ul class="level2" >
+                    <li><a href="javascript:;">POS收银</a></li>
+                    <li><a href="javascript:;">预约详情</a></li>
+                    <li><a href="javascript:;" >订单管理</a></li>
+                    <li><a href="javascript:;">卖品</a></li>
+                    <li><a href="javascript:;">信息推送</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico2"></em>影厅管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">影厅设置</a></li>
+                    <li><a href="javascript:;">人员管理</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico3"></em>会员管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员信息</a></li>
+                    <li><a href="javascript:;">交易信息</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit current"><em class="ico ico4"></em>财务管理<i class="down"></i></a>
+                <ul class="level2" style="display:block;">
+                    <li><a href="javascript:;" class="cur">财务统计</a></li>
+                    <li><a href="javascript:;">订单数据</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico5"></em>商品管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">商品管理</a></li>
+                    <li><a href="javascript:;">卖品订单</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico6"></em>促销管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员促销</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico7"></em>系统设置<i></i></a>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico8"></em>APP系统<i></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!--主体-->
+    <section id="main">
+        <div class="topBar">
+            <div class="location fl">
+                <a>首页</a> &gt; <a>财务管理 &gt; <a class="cur">财务统计</a></a>
+            </div>
+            <div class="date fr">
+                2017年05月20日&emsp;&emsp;16:18:10&emsp;&emsp;星期五
+            </div>
+        </div>
+        <div class="controlView">
+            <div class="briefData clearfix">
+                <div class="fl">
+                    <img src="images/icon.png" alt="">
+                    <p class="saleroom">￥<b>13,800</b></p>
+                    <p>今日销售额</p>
+                    <div class="subdivide clearfix">
+                        <div class="sub-3">
+                            <p>￥4500</p>
+                            <p>观映收入</p>
+                        </div>
+                        <div class="sub-3">
+                            <p>￥3000</p>
+                            <p>卖品收入</p>
+                        </div>
+                        <div class="sub-3">
+                            <p>￥6000</p>
+                            <p>会员收入</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fr">
+                    <div class="frTop">
+                        <img src="images/pic_15.jpg" alt="" class="fl">
+                        <div class="fr clearfix">
+                            <span class="fl">小鸟观映-世纪金花店</span>
+                            <a href="#" class="fr" id="payRecordBtn">充值记录</a>
+                            <div id="payRecord">
+                                <p class="title">商户充值记录 <a href="#" class="closeBtn"></a></p>
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>日期</td>
+                                        <td>金额</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2017-12-07</td>
+                                        <td>￥20000.00</td>
+                                    </tr>
+                                </table>
+                                <div class="paging clearfix">
+                                    <div class="fl">共42条</div>
+                                    <div class="fr">
+                                        <a href="#">&lt;</a>
+                                        <a href="#">1</a>
+                                        <a href="#">&gt;</a>
+                                        <span>共3页</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data fr clearfix">
+                            <div class="col-4">
+                                <p>2017-07-05</p>
+                                <span>开业时间</span>
+                            </div>
+                            <div class="col-4">
+                                <p>230</p>
+                                <span>已营业天数</span>
+                            </div>
+                            <div class="col-4">
+                                <p><span>￥</span>206,000</p>
+                                <span>总收入</span>
+                            </div>
+                            <div class="col-4">
+                                <p><span>￥</span>16,800</p>
+                                <span>账户余额</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frBot">
+                        <div class="item-4 clearfix">
+                            <div class="fl"><p>影厅</p><span>16</span></div>
+                            <div class="fr pic1"></div>
+                        </div>
+                        <div class="item-4 clearfix">
+                            <div class="fl"><p>卖品</p><span>20</span></div>
+                            <div class="fr pic2"></div>
+                        </div>
+                        <div class="item-4 clearfix">
+                            <div class="fl"><p>会员</p><span>387</span></div>
+                            <div class="fr pic3"></div>
+                        </div>
+                        <div class="item-4 clearfix">
+                            <div class="fl"><p>影片</p><span>8,791</span></div>
+                            <div class="fr pic4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chartData">
+                <div class="chart fl">
+                    <div class="topBar">
+                        <span class="fl">营业收入</span>
+                        <div class="fr">
+                            <div class="tab tab1">
+                                <span class="cur">按日</span>
+                                <span>按月</span>
+                                <span>按年</span>
+                            </div>
+                            <div class="time">
+                                <input type="text" class="fl" title="" readonly value="2017-08-09">
+                                <button type="button" class="fr"></button>
+                            </div>
+                            <a href="#" class="inquire">查询</a>
+                        </div>
+                    </div>
+                    <div class="tabCont tabCont1">
+                        <div class="tabItem">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas1"></canvas>
+                            </div>
+                        </div>
+                        <div class="tabItem" style="display:none;">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas2"></canvas>
+                            </div>
+                        </div>
+                        <div class="tabItem" style="display:none;">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas3"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart fr">
+                    <div class="topBar">
+                        <span class="fl">营业总收入数据</span>
+                        <div class="fr">
+                            <div class="tab tab2">
+                                <span class="cur">按日</span>
+                                <span>按月</span>
+                                <span>按年</span>
+                            </div>
+                            <div class="time">
+                                <input type="text" class="fl" title="" readonly value="2017-08-09">
+                                <button type="button" class="fr"></button>
+                            </div>
+                            <a href="#" class="inquire">查询</a>
+                        </div>
+                    </div>
+                    <div class="tabCont tabCont2">
+                        <div class="tabItem">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas4"></canvas>
+                            </div>
+                        </div>
+                        <div class="tabItem" style="display:none;">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas5"></canvas>
+                            </div>
+                        </div>
+                        <div class="tabItem" style="display:none;">
+                            <div class="chartDiv">
+                                <canvas id="chartCanvas6"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--底部-->
+    <footer id="footer"><span>Copyright &copy; 2017</span>&emsp;西安嘿咪网络科技有限公司 版权所有</footer>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/Chart.bundle.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/script.js"></script>
+<script>
+    var lineChartData1 = {
+        labels: ["05.23", "05.24", "05.25", "05.26", "05.27", "05.28", "05.29", "05.30"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: false,
+            data: [
+                150,
+                310,
+                250,
+                390,
+                230,
+                350,
+                220,
+                140
+            ],
+            yAxisID: "y-axis-1"
+        }, {
+            label: "卖品收入",
+            borderColor: window.chartColors.yellow,
+            backgroundColor: window.chartColors.yellow,
+            fill: false,
+            data: [
+                150,
+                333,
+                444,
+                390,
+                222,
+                111,
+                222,
+                333
+            ],
+            yAxisID: "y-axis-2"
+        }, {
+            label: "会员收入",
+            borderColor: window.chartColors.blue,
+            backgroundColor: window.chartColors.blue,
+            fill: false,
+            data: [
+                555,
+                333,
+                222,
+                111,
+                111,
+                555,
+                444,
+                777
+            ],
+            yAxisID: "y-axis-3"
+        }]
+    };
+    var lineChartData2 = {
+        labels: ["05.23", "05.24", "05.25", "05.26", "05.27", "05.28", "05.29", "05.30"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: false,
+            data: [
+                randomScalingFactor(),//随机生成数据
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-1"
+        }, {
+            label: "卖品收入",
+            borderColor: window.chartColors.yellow,
+            backgroundColor: window.chartColors.yellow,
+            fill: false,
+            data: [
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-2"
+        }, {
+            label: "会员收入",
+            borderColor: window.chartColors.blue,
+            backgroundColor: window.chartColors.blue,
+            fill: false,
+            data: [
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-3"
+        }]
+    };
+    var lineChartData3 = {
+        labels: ["05.23", "05.24", "05.25", "05.26", "05.27", "05.28", "05.29", "05.30"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: false,
+            data: [
+                randomScalingFactor(),//随机生成数据
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-1"
+        }, {
+            label: "卖品收入",
+            borderColor: window.chartColors.yellow,
+            backgroundColor: window.chartColors.yellow,
+            fill: false,
+            data: [
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-2"
+        }, {
+            label: "会员收入",
+            borderColor: window.chartColors.blue,
+            backgroundColor: window.chartColors.blue,
+            fill: false,
+            data: [
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-3"
+        }]
+    };
+    var lineChartData4 = {
+        labels: ["05.23", "05.26", "05.29", "06.01", "06.04", "06.07", "06.10"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: true,
+            data: [
+                44,
+                33,
+                50,
+                90,
+                30,
+                50,
+                20,
+                40
+            ],
+            yAxisID: "y-axis-1"
+        }]
+    };
+    var lineChartData5 = {
+        labels: ["05.23", "05.26", "05.29", "06.01", "06.04", "06.07", "06.10"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: true,
+            data: [
+                randomScalingFactor(),//随机生成数据
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-1"
+        }]
+    };
+    var lineChartData6 = {
+        labels: ["05.23", "05.26", "05.29", "06.01", "06.04", "06.07", "06.10"],
+        datasets: [{
+            label: "观映收入",
+            borderColor: window.chartColors.green,
+            backgroundColor: window.chartColors.green,
+            fill: true,
+            data: [
+                randomScalingFactor(),//随机生成数据
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor(),
+                randomScalingFactor()
+            ],
+            yAxisID: "y-axis-1"
+        }]
+    };
+
+    window.onload = function() {
+        var ctx1 = document.getElementById("chartCanvas1").getContext("2d");
+        var ctx2 = document.getElementById("chartCanvas2").getContext("2d");
+        var ctx3 = document.getElementById("chartCanvas3").getContext("2d");
+        var ctx4 = document.getElementById("chartCanvas4").getContext("2d");
+        var ctx5 = document.getElementById("chartCanvas5").getContext("2d");
+        var ctx6 = document.getElementById("chartCanvas6").getContext("2d");
+        window.myLine = Chart.Line(ctx1, {
+            data: lineChartData1,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-2",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-3",
+                        ticks: {
+                            min: 0
+                        }
+                    }]
+                },
+                elements: {
+                    line: {
+                        tension: 0
+                    }
+                }
+            }
+        });
+        window.myLine = Chart.Line(ctx2, {
+            data: lineChartData2,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-2",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-3",
+                        ticks: {
+                            min: 0
+                        }
+                    }]
+                },
+                elements: {
+                    line: {
+                        tension: 0
+                    }
+                }
+            }
+        });
+        window.myLine = Chart.Line(ctx3, {
+            data: lineChartData3,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-2",
+                        ticks: {
+                            min: 0
+                        }
+                    }, {
+                        type: "linear",
+                        display: false,
+                        position: "right",
+                        id: "y-axis-3",
+                        ticks: {
+                            min: 0
+                        }
+                    }]
+                },
+                elements: {
+                    line: {
+                        tension: 0
+                    }
+                }
+            }
+        });
+        window.myLine = Chart.Line(ctx4, {
+            data: lineChartData4,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0,
+                            suggestedMin: 100
+                        }
+                    }]
+                }
+            }
+        });
+        window.myLine = Chart.Line(ctx5, {
+            data: lineChartData5,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0,
+                            suggestedMin: 100
+                        }
+                    }]
+                }
+            }
+        });
+        window.myLine = Chart.Line(ctx6, {
+            data: lineChartData6,
+            options: {
+                responsive: true,
+                hoverMode: 'index',
+                stacked: false,
+                scales: {
+                    yAxes: [{
+                        type: "linear",
+                        display: true,
+                        position: "left",
+                        id: "y-axis-1",
+                        ticks: {
+                            min: 0,
+                            suggestedMin: 100
+                        }
+                    }]
+                }
+            }
+        });
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+#main .orderManage{height: 90%;background-color: #fff;border: 1px solid #e5e5e5;position: relative;}
+.tab {width:100%;position:relative;}
+.tab-title {font-size: 16px;color:#333;padding-top: 10px;}
+.tab .tab-title a{width:120px;height:35px;border:1px solid #ccc;line-height:35px;background-color:#f5f5f5;}
+.tab-title .item {display: inline-block;width: 80px;height: 30px;line-height: 30px;text-align: center;color: #333;
+    font-size: 16px; }
+.tab-title .item-cur {color:#fff;background-color:#1ba794!important; }
+
+.tab-cont {border-top:1px solid #ccc;width:100%;height:auto;}
+.tab-cont__wrap {position: absolute;}
+.tab-cont .item {width:100%;height:auto;}
+
+li .find{margin:15px 30px;}
+li .find span{color:#333;margin-right:15px;line-height:35px;}
+li .find select{width:160px;height:35px;border:1px solid #ccc;padding-left:10px;box-sizing:border-box;font-size:16px;color:#333;margin-right:50px;border-radius: 0;}
+li .find .time{width:160px;height:35px;border:1px solid #ccc;}
+li .find .time input{border:0;line-height:33px;background:none;font-size:16px;color:#333;width:79%;padding-left:10px;box-sizing:border-box;}
+li .find .time i{display:inline-block;width:33px;height:33px;background:#f5f5f5 url(../images/note-b.png)no-repeat center center;}
+li .find .sp3{margin:0 20px;}
+li .find .submit{width:100px;height:35px;color:#fff;font-size:16px;background-color:#1ba794;border-radius:5px;text-align:center;line-height:35px;border:0;margin-left:20px;cursor:pointer;}
+
+li .details table th{border-top:1px solid #dadada;}
+li .details table td,li .details table th{text-align:center;height:40px;border-right:1px solid #dadada;border-bottom:1px solid #dadada;color:#111;font-size: 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+li .details table .last .td{border-bottom:0;}
+li .details table .tr1:hover{background-color:#f6fbff;}
+li .details table tr th{color:#1ba794;font-weight:500;}
+li .details table tr td{color:#333;}
+li .details table tr td:last-child a{font-size:16px;color:#097ff9;}
+li .details table tr td:last-child{font-size:16px;color:#333;}
+
+.orderManage{position:relative;}
+.t-details{width:530px;height:560px;background-color:#fff;position:absolute;top:50%;left:50%;z-index:1;display:none;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.t-details .title{width:100%;height:58px;background-color:#f5f5f5;border-top-left-radius:5px;border-top-right-radius:5px;position:relative;}
+.t-details .title h3{text-align:center;font: 16px/58px 'Microsoft YaHei';color:#333;font-weight:500;}
+.t-details .orderdetails{width:423px;height:241px;margin-left:58px;border-left:1px dashed #b9b9b9;
+    border-bottom:1px dashed #b9b9b9;position:relative;padding-top:10px;box-sizing: border-box;}
+.t-details .shopping{height:195px;margin-left:58px;border-left:1px dashed #b9b9b9;position:relative;padding-top:10px;box-sizing: border-box;padding-left: 60px;}
+.t-details .orderdetails p{width:100%;height:45px;font-size: 14px;}
+.t-details .orderdetails p span{display:inline-block;line-height:45px;}
+.t-details .orderdetails p .sp1{width:40%;text-align:right;font-size:14px;color:#8c8b8b;margin-right:35px;}
+.t-details .orderdetails p .sp2{font-size:14px;color:#070707;}
+.t-details .orderdetails p .sp3{color:#e73613;}
+.t-details .orderdetails i{width:56px;height:56px;border-radius:50%;border:1px dashed #b9b9b9;background:#fff url(../images/text.png)no-repeat center center;position:absolute;
+    top:48px;left:-28px;z-index:1;}
+.t-details .shopping p span{font-size:14px;color:#333;display:inline-block;line-height:25px;}
+.t-details .shopping p .sp1{width:35%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;float: left;margin-left: 40px;margin-right: 10px;}
+.t-details .shopping p .sp2{width:20%;}
+.t-details .shopping p .sp3{width:20%;}
+.t-details .shopping .p4{font-size:14px;color:#1ba794;line-height:35px;padding-left:220px;position: absolute;bottom: 10px;}
+.t-details .shopping i{width:56px;height:56px;border-radius:50%;border:1px dashed #b9b9b9;top:48px;left:-28px;z-index:1;
+    background:#fff url(../images/shoppingCart.png)no-repeat center center;position:absolute;}
+.t-details .button{width:100%;height:65px;border-top:2px solid #eee;text-align:center;padding-top:20px;box-sizing: border-box;}
+.t-details .button a{display:inline-block;width:80px;height:30px;background-color:#1ba794;color:#fff;text-align:center;line-height:30px;
+    border-radius:5px;margin-right:20px;float:left;}
+.t-details .button .a1{margin-left:175px;}
+.t-details .button .a2{background-color:#fff;color:#1ba794;border:1px solid #1ba794;}
+
+.sel-boxone input{border: none;}
+.sel-list{top: 35px;width: calc(100% + 2px);right: -1px;}
+
+
+
+

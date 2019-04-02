@@ -1,0 +1,47 @@
+/* 主体--订单管理 */
+#main .orderManage{height: 90%;background-color: #fff;border: 1px solid #e5e5e5;position: relative;}
+#main .orderManage .timeSlot{padding: 30px;line-height: 35px;}
+#main .orderManage .timeSlot span.fl{margin: 0 15px;color: #333;}
+#main .orderManage .timeSlot input[type=date]{width: 190px;height: 40px;border: 1px solid #ccc;}
+#main .orderManage .timeSlot button[type=submit]{width: 100px;height: 35px;float: left;font: 16px/35px 'Microsoft Yahei';border: none;margin-left: 20px;background-color: #1ba794;color: #fff;border-radius: 7px;outline: none;}
+#main .orderManage .timeSlot input[type=date]::-webkit-inner-spin-button {visibility: hidden;}
+.orderManage .dv1{width:188px;height:35px;border:1px solid #ccc;}
+.orderManage .dv1 input{width:146px;height:33px;line-height:33px;border:0;color:#333;font-size:16px;padding-left:5px;box-sizing: border-box;}
+.orderManage .dv1 i{display:inline-block;width:33px;height:33px;float:right;background:#f5f5f5 url(../images/note-b.png) no-repeat center center;}
+
+#main .orderManage .orderList{width: 100%;}
+#main .orderManage .orderList tr:hover{background-color: #f6fbff;}
+#main .orderManage .orderList td{text-align: center;height: 40px;border-right: 1px solid #dadada;border-bottom: 1px solid #dadada;color: #333;font-size: 16px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+#main .orderManage .orderList tr:first-child td{border-top: 1px solid #dadada;color: #1ba794;}
+#main .orderManage .orderList tr td:last-child{border-right: none;}
+#main .orderManage .orderList tr td:last-child a{color: #097ff9;}
+#main .orderManage select{width: 160px;height: 35px;margin-right: 20px;}
+
+/* 弹窗 */
+.popup .interface{width: 530px;height: 560px;}
+#details .frame{width: 423px;height: 241px;margin-left: 60px;font: 14px/44px 'Microsoft Yahei';padding-top: 10px;border-bottom: 1px dashed #c1c1c1;border-left: 1px dashed #c1c1c1;position: relative;}
+#details .frame>p{font: 14px/45px 'Microsoft YaHei';}
+#details .frame span{display: inline-block;}
+#details .frame span:nth-child(1){color: #8c8b8b;width: 40%;text-align: right;margin-right: 35px;}
+#details .frame span:nth-child(2){color: #070707;}
+#details .frame span.colRed{color: #e73613;}
+#details .frame .absIcon{position: absolute;width: 56px;height: 56px;border-radius: 50%;border: 1px dashed #c1c1c1;left: -28px;top: 48px;background-color: #fff;}
+#details .frame .absIcon img{display: block;width: 100%;}
+#details .frame2{height: 195px;margin-left: 60px;font: 14px/35px 'Microsoft Yahei';padding: 10px 0 0 60px;border-left: 1px dashed #c1c1c1;position: relative;}
+#details .frame2 p{line-height: 25px;}
+#details .frame2 .absIcon{position: absolute;width: 56px;height: 56px;border-radius: 50%;border: 1px dashed #c1c1c1;left: -28px;top: 48px;background-color: #fff;}
+#details .frame2 .absIcon img{display: block;width: 100%;}
+#details .frame2 span{display: inline-block;color: #333;}
+#details .frame2 span:nth-child(1){width: 35%;margin-left: 40px;margin-right: 10px;text-overflow: ellipsis;white-space: nowrap;}
+#details .frame2 span:nth-child(2){width: 90px;}
+#details .frame2 .total{text-align: right;padding-right: 65px;color: #1ba794;position: absolute;padding-left: 220px;bottom: 10px;}
+#details .btnBox{text-align: center;border-top: 2px solid #eee;padding-top: 18px;}
+#details .btnBox a{display: inline-block;width: 80px;height: 30px;border-radius: 5px;border: 1px solid #1ba794;font: 14px/28px 'Microsoft Yahei';color: #1ba794;margin: 0 10px;}
+#details .btnBox a.confirm{background-color: #1ba794;color: #fff;}
+
+
+
+
+
+
+

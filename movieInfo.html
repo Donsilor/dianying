@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商户后台管理中心 小鸟观映</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="小鸟观映">
+    <meta name="description" content="小鸟观映">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/movieInfo.css">
+</head>
+<body>
+<div class="w">
+    <!--头部-->
+    <header id="header">
+        <a href="#" class="logo"></a>
+        <span class="title fl">商户后台管理中心</span>
+        <div class="userControl fr">
+            <span class="userName">: admin</span>
+            <a href="#" class="exit">退出系统</a>
+        </div>
+    </header>
+    <!--侧边栏-->
+    <aside id="aside">
+        <ul class="menu">
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico1"></em>POS收银<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">POS收银</a></li>
+                    <li><a href="javascript:;">预约详情</a></li>
+                    <li><a href="javascript:;">订单管理</a></li>
+                    <li><a href="javascript:;">卖品</a></li>
+                    <li><a href="javascript:;">信息推送</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit current"><em class="ico ico2"></em>影厅管理<i class="down"></i></a>
+                <ul class="level2" style="display:block;">
+                    <li><a href="javascript:;">影厅设置</a></li>
+                    <li><a href="javascript:;">人员管理</a></li>
+                    <li><a href="javascript:;" class="cur">影院信息</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico3"></em>会员管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员信息</a></li>
+                    <li><a href="javascript:;">交易信息</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico4"></em>财务管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">财务统计</a></li>
+                    <li><a href="javascript:;">订单数据</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico5"></em>商品管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">商品管理</a></li>
+                    <li><a href="javascript:;">卖品订单</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;" class="tit"><em class="ico ico6"></em>促销管理<i></i></a>
+                <ul class="level2">
+                    <li><a href="javascript:;">会员促销</a></li>
+                </ul>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico7"></em>系统设置<i></i></a>
+            </li>
+            <li class="level1">
+                <a href="javascript:;"><em class="ico ico8"></em>APP系统<i></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!--主体-->
+    <section id="main">
+        <div class="topBar">
+            <div class="location fl">
+                <a>首页</a> &gt; <a>影厅管理</a> &gt; <a class="cur">影院信息</a>
+            </div>
+            <div class="date fr">
+                2017年05月20日&emsp;&emsp;16:18:10&emsp;&emsp;星期五
+            </div>
+        </div>
+        <div class="infoArea">
+            <form action="" name="movieInfo">
+                <div class="item clearfix">
+                    <span class="itemTit fl">影院名称：</span>
+                    <div class="itemCon fl">
+                        <input type="text" class="fl" title="" value="小鸟观映世纪金花店">
+                        <span class="fl">开业时间：</span>
+                        <div class="time fl">
+                            <input type="text" class="fl" title="" value="2017-06-09" readonly>
+                            <button type="button" class="fr"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <span class="itemTit fl">地址：</span>
+                    <div class="itemCon fl">
+                        <select name="" title="">
+                            <option value="">陕西省</option>
+                        </select>
+                        <i>—</i>
+                        <select name="" title="">
+                            <option value="">西安市</option>
+                        </select>
+                        <i>—</i>
+                        <select name="" title="">
+                            <option value="">高新区</option>
+                        </select>
+                        <i>—</i>
+                        <input type="text" title="addr" placeholder="详细地址">
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <span class="itemTit fl">联系电话：</span>
+                    <div class="itemCon fl">
+                        <input type="text" title="" value="4008700507">
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <span class="itemTit fl">影院介绍：</span>
+                    <div class="itemCon fl">
+                        <input type="text" title="introTitle" placeholder="标题">
+                        <textarea title="intro" id="" cols="30" rows="10" placeholder="影院描述"></textarea>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <span class="itemTit fl">展示图片：</span>
+                    <div class="itemCon fl">
+                        <div class="uploadPic clearfix">
+                            <a href="javascript:;" class="fl" onclick="document.movieInfo.uploadPic.click()">上传图片</a>
+                            <input type="file" id="uploadPic" style="display:none;">
+                            <p class="fl">最多上传6张图片（<span>上传的第一张图片将默认为展示主图</span>）</p>
+                        </div>
+                        <div class="imgList clearfix">
+                            <div class="imgItem">
+                                <img src="images/pic_19.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                            <div class="imgItem">
+                                <img src="images/pic_17.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                            <div class="imgItem">
+                                <img src="images/pic_16.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                            <div class="imgItem">
+                                <img src="images/pic_20.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                            <div class="imgItem">
+                                <img src="images/pic_20.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                            <div class="imgItem">
+                                <img src="images/pic_20.jpg" alt="">
+                                <div class="layer">
+                                    <a href="javascript:;" onclick="document.movieInfo.uploadPic.click()">重新上传</a>
+                                    <a href="javascript:;" class="absBtn"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="btns">
+                <button type="submit">保存</button>
+            </div>
+        </div>
+    </section>
+    <!--底部-->
+    <footer id="footer"><span>Copyright &copy; 2017</span>&emsp;西安嘿咪网络科技有限公司 版权所有</footer>
+    <!--弹窗-->
+    <div id="addHall" class="popup" style="display:none;">
+        <div class="interface">
+            <div class="top">
+                <p>添加影厅</p>
+                <a href="javascript:;" id="addHallCloseBtn" class="closeBtn"></a>
+            </div>
+            <form action="">
+                <div class="line clearfix">
+                    <span class="fl"><span>*</span>影厅编号：</span>
+                    <input type="text" title="">
+                </div>
+                <div class="line clearfix">
+                    <span class="fl"><span>*</span>影厅类型：</span>
+                    <!--<div class="sel-boxone" id="Tmcselect01">
+                        <input for="label" title="" type="text" readonly value="1人厅">
+                        <ul class="sel-list" style="display:none;">
+                            <li data="1">1人厅</li>
+                            <li data="2">2人厅</li>
+                            <li data="3">3人厅</li>
+                            <li data="4">4人厅</li>
+                        </ul>
+                    </div>-->
+                    <select>
+                        <option value="">1人厅</option>
+                        <option value="">2人厅</option>
+                        <option value="">3人厅</option>
+                        <option value="">4人厅</option>
+                    </select>
+                </div>
+                <div class="line clearfix">
+                    <span class="fl">影厅名称：</span>
+                    <input type="text" title="">
+                </div>
+                <div class="line clearfix">
+                    <span class="fl">添加数量：</span>
+                    <input type="text" title="">
+                </div>
+                <div class="line mgT30 clearfix">
+                    <span class="fl"><span>*</span>影厅价格：</span>
+                </div>
+                <div class="line jobHour clearfix">
+                    <span class="fl">包时&emsp;</span>
+                    <input type="text" title=""><span class="colGray">（单位：元/小时）</span>
+                </div>
+                <div class="line jobSite clearfix">
+                    <span class="fl">包场&emsp;</span>
+                    <input type="text" title="" placeholder="场地费"><span> + 影片价格</span>
+                </div>
+                <div class="btnBox">
+                    <a href="javascript:;" class="confirm">确定</a>
+                    <a href="javascript:;">取消</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="editHall" class="popup" style="display:none;">
+        <div class="interface">
+            <div class="top">
+                <p>编辑</p>
+                <a href="javascript:;" id="editHallCloseBtn" class="closeBtn"></a>
+            </div>
+            <form action="">
+                <div class="line clearfix">
+                    <span class="fl"><span>*</span>影厅编号：</span>
+                    <input type="text" title="">
+                </div>
+                <div class="line clearfix">
+                    <span class="fl"><span>*</span>影厅类型：</span>
+                    <!--<div class="sel-boxone" id="Tmcselect02">
+                        <input for="label" title="" type="text" readonly value="1人厅">
+                        <ul class="sel-list" style="display:none;">
+                            <li data="1">1人厅</li>
+                            <li data="2">2人厅</li>
+                            <li data="3">3人厅</li>
+                            <li data="4">4人厅</li>
+                        </ul>
+                    </div>-->
+                    <select>
+                        <option value="">1人厅</option>
+                        <option value="">2人厅</option>
+                        <option value="">3人厅</option>
+                        <option value="">4人厅</option>
+                    </select>
+                </div>
+                <div class="line clearfix">
+                    <span class="fl">影厅名称：</span>
+                    <input type="text" title="">
+                </div>
+                <div class="line mgT30 clearfix">
+                    <span class="fl"><span>*</span>影厅价格：</span>
+                </div>
+                <div class="line jobHour clearfix">
+                    <span class="fl">包时&emsp;</span>
+                    <input type="text" title=""><span class="colGray">（单位：元/小时）</span>
+                </div>
+                <div class="line jobSite clearfix">
+                    <span class="fl">包场&emsp;</span>
+                    <input type="text" title="" placeholder="场地费"><span> + 影片价格</span>
+                </div>
+                <div class="btnBox">
+                    <a href="javascript:;" class="confirm">确定</a>
+                    <a href="javascript:;">取消</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="delHall" class="popup" style="display:none;">
+        <div class="interface">
+            <a href="javascript:;" id="delHallCloseBtn" class="closeBtn"></a>
+            <p>确定要删除该影厅吗？</p>
+            <div class="btnBox">
+                <a href="javascript:;" class="confirm">确定</a>
+                <a href="javascript:;">取消</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery1.8.3.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

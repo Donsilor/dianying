@@ -1,0 +1,43 @@
+/* 主体--影厅设置 */
+.briefBar{width: 100%;height: 75px;background-color: #fff;font: 16px/75px 'Microsoft Yahei';padding:0 190px 0 10px;color: #333;margin-bottom: 20px;}
+.briefBar>span:first-child{margin-right: 180px;}
+.briefBar span span{color: #fcc003;}
+.briefBar .addHall{float: right;width: 110px;height: 35px;text-align: center;font: 16px/35px 'Microsoft Yahei';background: url("../images/btnBg.jpg") repeat-y center/100%;margin: 20px 0;color: #fff;border-radius: 5px;}
+
+.hallList{overflow-y: scroll;height: 75%;}
+.hallList::-webkit-scrollbar{width: 8px;background: #ddd;border-radius: 5px;}
+.hallList::-webkit-scrollbar-thumb{background-color: #aaa;border-radius: 5px;}
+
+.hallList li{float: left;width: calc(100% / 6 - 10px);height: 140px;background-color: #1ba794;color: #fff;text-align: center;position: relative;padding-top: 30px;margin: 0 10px 10px 0;}
+.hallList li .absNum{position: absolute;width: 30px;height: 30px;border-radius: 50%;border: 1px solid #fff;text-align: center;font: 16px/28px 'Microsoft Yahei';top: 10px;left: 10px;}
+.hallList li p{font: 14px/26px 'Microsoft Yahei';}
+.hallList li p span{color: #fcbe03;}
+.hallList li .handle{position: absolute;bottom: 0;left: 0;width: 100%;height: 32px;background-color: rgba(0,0,0,.4);font: 16px/32px 'Microsoft Yahei';padding: 0 15px;opacity: 0;transition: all .3s;}
+.hallList li:hover .handle{opacity: 1;}
+.hallList li .handle a{color: #fff;}
+.hallList li .handle a.fl{padding-left: 25px;background: url("../images/editIcon2.png") no-repeat left center;}
+.hallList li .handle a.fr{padding-right: 25px;background: url("../images/deleteIcon2.png") no-repeat right center;}
+
+/* 弹窗 */
+.popup .interface{width: 530px;height: 530px;display: block;}
+.popup .interface form{width: 440px;margin: auto;padding-top: 30px;}
+.popup .interface .line{height: 30px;font: 14px/30px 'Microsoft Yahei';margin-bottom: 15px;color: #333;}
+.popup .interface .line.jobHour>span.fl{background: url("../images/jobHour.png") no-repeat center;}
+.popup .interface .line.jobSite>span.fl{background: url("../images/jobSite.png") no-repeat center;}
+.popup .interface .line>span.fl:first-child{width: 130px;text-align: right;margin-right: 10px;}
+.popup .interface .line>span.fl:first-child span{color: #ef3737;}
+.popup .interface .line input[type=text]{width: 230px;height: 30px;border: 1px solid #e1e1e1;font: 14px/28px 'Microsoft Yahei';padding: 0 10px;}
+.popup .interface .line select{width: 230px;height: 30px;border: 1px solid #e1e1e1;font: 14px/28px 'Microsoft Yahei';padding: 0 10px;}
+.popup .interface .line .sel-list{top: 30px;}
+.popup .interface .jobHour input[type=text]{width: 115px;}
+.popup .interface .jobSite input[type=text]{width: 75px;}
+.popup .interface .btnBox{width: 100%;margin: auto;border-top: 2px solid #eee;text-align: center;position: absolute;bottom: 30px;left: 0;}
+.popup .interface .btnBox a{display: inline-block;width: 80px;height: 30px;border-radius: 3px;border: 1px solid #1ba794;color: #1ba794;font: 14px/28px 'Microsoft Yahei';margin: 20px 10px 0;}
+.popup .interface .btnBox a.confirm{background-color: #1BA794;color: #fff;}
+#delHall .interface{height: 290px;}
+#delHall .interface p{text-align: center;color: #333;padding-top: 78px;}
+#delHall .interface .btnBox{border: none;margin-top: 100px;}
+
+
+.mgT30{margin-top: 30px;}
+.colGray{color: #7b7a7a;}
